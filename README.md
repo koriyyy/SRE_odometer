@@ -26,13 +26,7 @@
   });
   ```
 
-  所有访问github的服务都需要授权，而这个auth是授权证书，你可以在 https://github.com/settings/tokens 中设置你自己的token。为了方便和统一，我已经设置了一个永不过期的token，`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` ，也即：
-
-  ```js
-  const octokit = new Octokit({
-    auth: `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`,
-  });
-  ```
+  所有访问github的服务都需要授权，而这个auth是授权证书，你可以在 https://github.com/settings/tokens 中设置你自己的token。为了方便和统一，我们已经设置了一个永不过期的token
 
 
 #### Start
